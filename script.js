@@ -24,7 +24,7 @@
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 for(var i = 0; i< names.length; i++){
-  if (names[0][0]===("J" || 'j')){
+  if ((names[i].charAt(0)==="J" )|| (names[i].charAt(0)==="j")){
     console.log("Good Bye "+ names[i]);
   }
   else{
